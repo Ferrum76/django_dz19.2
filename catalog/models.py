@@ -34,21 +34,21 @@ class Product(models.Model):
         related_name="products",
     )
 
-    price = models.IntegerField(
+    price = models.FloatField(
         blank=True,
         null=True,
         verbose_name="Цена за покупку",
         help_text="Введите Цену за покупку продукта",
     )
 
-    created_at = models.DateField(
+    created_at = models.DateTimeField(
         blank=True,
         null=True,
         verbose_name="Дата создания(записи в БД)",
         help_text="Введите Дату создания продукта",
     )
 
-    updated_at = models.DateField(
+    updated_at = models.DateTimeField(
         blank=True,
         null=True,
         verbose_name="Дата последнего изменения(записи в БД)",

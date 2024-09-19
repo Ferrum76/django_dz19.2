@@ -32,8 +32,8 @@ class Command(BaseCommand):
                 category = Category.objects.get(pk=fields['category'])
                 Product.objects.create(
                     id=pk,
-                    name=fields['name'],
-                    description=fields.get('description', ''),
+                    title=fields['title'],
+                    desk=fields.get('desk', ''),
                     image=fields.get('image', ''),
                     category=category,
                     price=fields['price'],

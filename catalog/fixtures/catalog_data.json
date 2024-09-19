@@ -3,48 +3,48 @@
         "model": "catalog.category",
         "pk": 1,
         "fields": {
-            "name": "Еда",
-            "description": "описание еды"
+            "title": "Еда",
+            "desk": "описание еды"
         }
     },
     {
         "model": "catalog.category",
         "pk": 2,
         "fields": {
-            "name": "Инструменты",
-            "description": "описание инструментов"
+            "title": "Инструменты",
+            "desk": "описание инструментов"
         }
     },
     {
         "model": "catalog.category",
         "pk": 3,
         "fields": {
-            "name": "Одежда",
-            "description": "различная одежда для всех сезонов"
+            "title": "Одежда",
+            "desk": "различная одежда для всех сезонов"
         }
     },
     {
         "model": "catalog.category",
         "pk": 4,
         "fields": {
-            "name": "Электроника",
-            "description": "современные электронные устройства"
+            "title": "Электроника",
+            "desk": "современные электронные устройства"
         }
     },
     {
         "model": "catalog.category",
         "pk": 5,
         "fields": {
-            "name": "Книги",
-            "description": "различные жанры и авторы"
+            "title": "Книги",
+            "desk": "различные жанры и авторы"
         }
     },
     {
         "model": "catalog.product",
         "pk": 1,
         "fields": {
-            "name": "Milk",
-            "description": "",
+            "title": "Milk",
+            "desk": "",
             "image": "",
             "category": 1,
             "price": "123.12",
@@ -56,8 +56,8 @@
         "model": "catalog.product",
         "pk": 2,
         "fields": {
-            "name": "Potato",
-            "description": "",
+            "title": "Potato",
+            "desk": "",
             "image": "",
             "category": 1,
             "price": "23.12",
@@ -69,8 +69,8 @@
         "model": "catalog.product",
         "pk": 3,
         "fields": {
-            "name": "Футболка",
-            "description": "Мягкая хлопковая футболка",
+            "title": "Футболка",
+            "desk": "Мягкая хлопковая футболка",
             "image": "",
             "category": 3,
             "price": "29.99",
@@ -82,8 +82,8 @@
         "model": "catalog.product",
         "pk": 4,
         "fields": {
-            "name": "Джинсы",
-            "description": "Стильные синие джинсы",
+            "title": "Джинсы",
+            "desk": "Стильные синие джинсы",
             "image": "",
             "category": 3,
             "price": "59.99",
@@ -95,8 +95,8 @@
         "model": "catalog.product",
         "pk": 5,
         "fields": {
-            "name": "Куртка",
-            "description": "Теплая зимняя куртка",
+            "title": "Куртка",
+            "desk": "Теплая зимняя куртка",
             "image": "",
             "category": 3,
             "price": "120.00",
@@ -108,8 +108,8 @@
         "model": "catalog.product",
         "pk": 6,
         "fields": {
-            "name": "Шорты",
-            "description": "Легкие летние шорты",
+            "title": "Шорты",
+            "desk": "Легкие летние шорты",
             "image": "",
             "category": 3,
             "price": "35.50",
@@ -121,8 +121,8 @@
         "model": "catalog.product",
         "pk": 7,
         "fields": {
-            "name": "Платье",
-            "description": "Элегантное вечернее платье",
+            "title": "Платье",
+            "desk": "Элегантное вечернее платье",
             "image": "",
             "category": 3,
             "price": "89.99",
@@ -134,8 +134,8 @@
         "model": "catalog.product",
         "pk": 8,
         "fields": {
-            "name": "Свитер",
-            "description": "Теплый шерстяной свитер",
+            "title": "Свитер",
+            "desk": "Теплый шерстяной свитер",
             "image": "",
             "category": 3,
             "price": "49.99",
@@ -147,8 +147,8 @@
         "model": "catalog.product",
         "pk": 9,
         "fields": {
-            "name": "Брюки",
-            "description": "Удобные спортивные брюки",
+            "title": "Брюки",
+            "desk": "Удобные спортивные брюки",
             "image": "",
             "category": 3,
             "price": "45.00",
@@ -160,8 +160,8 @@
         "model": "catalog.product",
         "pk": 10,
         "fields": {
-            "name": "Пальто",
-            "description": "Стильное зимнее пальто",
+            "title": "Пальто",
+            "desk": "Стильное зимнее пальто",
             "image": "",
             "category": 3,
             "price": "150.00",
@@ -173,8 +173,8 @@
         "model": "catalog.product",
         "pk": 11,
         "fields": {
-            "name": "Блузка",
-            "description": "Легкая хлопковая блузка",
+            "title": "Блузка",
+            "desk": "Легкая хлопковая блузка",
             "image": "",
             "category": 3,
             "price": "39.99",
@@ -186,8 +186,8 @@
         "model": "catalog.product",
         "pk": 12,
         "fields": {
-            "name": "Смартфон",
-            "description": "Последняя модель смартфона",
+            "title": "Смартфон",
+            "desk": "Последняя модель смартфона",
             "image": "",
             "category": 4,
             "price": "500.00",
@@ -199,8 +199,8 @@
         "model": "catalog.product",
         "pk": 13,
         "fields": {
-            "name": "Ноутбук",
-            "description": "Высокопроизводительный ноутбук",
+            "title": "Ноутбук",
+            "desk": "Высокопроизводительный ноутбук",
             "image": "",
             "category": 4,
             "price": "1200.00",
@@ -212,8 +212,8 @@
         "model": "catalog.product",
         "pk": 14,
         "fields": {
-            "name": "Наушники",
-            "description": "Беспроводные наушники с шумоподавлением",
+            "title": "Наушники",
+            "desk": "Беспроводные наушники с шумоподавлением",
             "image": "",
             "category": 4,
             "price": "150.00",
@@ -225,8 +225,8 @@
         "model": "catalog.product",
         "pk": 15,
         "fields": {
-            "name": "Телевизор",
-            "description": "4K UHD телевизор",
+            "title": "Телевизор",
+            "desk": "4K UHD телевизор",
             "image": "",
             "category": 4,
             "price": "800.00",
@@ -238,8 +238,8 @@
         "model": "catalog.product",
         "pk": 16,
         "fields": {
-            "name": "Планшет",
-            "description": "Легкий и мощный планшет",
+            "title": "Планшет",
+            "desk": "Легкий и мощный планшет",
             "image": "",
             "category": 4,
             "price": "300.00",
@@ -251,8 +251,8 @@
         "model": "catalog.product",
         "pk": 17,
         "fields": {
-            "name": "Камера",
-            "description": "Профессиональная цифровая камера",
+            "title": "Камера",
+            "desk": "Профессиональная цифровая камера",
             "image": "",
             "category": 4,
             "price": "600.00",
@@ -264,8 +264,8 @@
         "model": "catalog.product",
         "pk": 18,
         "fields": {
-            "name": "Плеер",
-            "description": "Музыкальный плеер с большим объемом памяти",
+            "title": "Плеер",
+            "desk": "Музыкальный плеер с большим объемом памяти",
             "image": "",
             "category": 4,
             "price": "80.00",
@@ -277,8 +277,8 @@
         "model": "catalog.product",
         "pk": 19,
         "fields": {
-            "name": "Внешний жесткий диск",
-            "description": "1TB внешний HDD для хранения данных",
+            "title": "Внешний жесткий диск",
+            "desk": "1TB внешний HDD для хранения данных",
             "image": "",
             "category": 4,
             "price": "70.00",
@@ -290,8 +290,8 @@
         "model": "catalog.product",
         "pk": 20,
         "fields": {
-            "name": "Роутер",
-            "description": "Высокоскоростной Wi-Fi роутер",
+            "title": "Роутер",
+            "desk": "Высокоскоростной Wi-Fi роутер",
             "image": "",
             "category": 4,
             "price": "60.00",
@@ -303,8 +303,8 @@
         "model": "catalog.product",
         "pk": 21,
         "fields": {
-            "name": "Геймпад",
-            "description": "Беспроводной игровой контроллер",
+            "title": "Геймпад",
+            "desk": "Беспроводной игровой контроллер",
             "image": "",
             "category": 4,
             "price": "50.00",
@@ -316,8 +316,8 @@
         "model": "catalog.product",
         "pk": 22,
         "fields": {
-            "name": "Война и мир",
-            "description": "Роман Льва Толстого",
+            "title": "Война и мир",
+            "desk": "Роман Льва Толстого",
             "image": "",
             "category": 5,
             "price": "20.00",
@@ -329,8 +329,8 @@
         "model": "catalog.product",
         "pk": 23,
         "fields": {
-            "name": "1984",
-            "description": "Роман Джорджа Оруэлла",
+            "title": "1984",
+            "desk": "Роман Джорджа Оруэлла",
             "image": "",
             "category": 5,
             "price": "15.00",
@@ -342,8 +342,8 @@
         "model": "catalog.product",
         "pk": 24,
         "fields": {
-            "name": "Преступление и наказание",
-            "description": "Роман Федора Достоевского",
+            "title": "Преступление и наказание",
+            "desk": "Роман Федора Достоевского",
             "image": "",
             "category": 5,
             "price": "18.00",
@@ -355,8 +355,8 @@
         "model": "catalog.product",
         "pk": 25,
         "fields": {
-            "name": "Гарри Поттер и философский камень",
-            "description": "Фэнтези Роальда Даля",
+            "title": "Гарри Поттер и философский камень",
+            "desk": "Фэнтези Роальда Даля",
             "image": "",
             "category": 5,
             "price": "25.00",
@@ -368,8 +368,8 @@
         "model": "catalog.product",
         "pk": 26,
         "fields": {
-            "name": "Мастер и Маргарита",
-            "description": "Роман Михаила Булгакова",
+            "title": "Мастер и Маргарита",
+            "desk": "Роман Михаила Булгакова",
             "image": "",
             "category": 5,
             "price": "22.00",
@@ -381,8 +381,8 @@
         "model": "catalog.product",
         "pk": 27,
         "fields": {
-            "name": "Бойцовский клуб",
-            "description": "Роман Чака Паланика",
+            "title": "Бойцовский клуб",
+            "desk": "Роман Чака Паланика",
             "image": "",
             "category": 5,
             "price": "19.99",
@@ -394,8 +394,8 @@
         "model": "catalog.product",
         "pk": 28,
         "fields": {
-            "name": "Старик и море",
-            "description": "Роман Эрнеста Хемингуэя",
+            "title": "Старик и море",
+            "desk": "Роман Эрнеста Хемингуэя",
             "image": "",
             "category": 5,
             "price": "17.50",
@@ -407,8 +407,8 @@
         "model": "catalog.product",
         "pk": 29,
         "fields": {
-            "name": "Братья Карамазовы",
-            "description": "Роман Федора Достоевского",
+            "title": "Братья Карамазовы",
+            "desk": "Роман Федора Достоевского",
             "image": "",
             "category": 5,
             "price": "24.00",
@@ -420,8 +420,8 @@
         "model": "catalog.product",
         "pk": 30,
         "fields": {
-            "name": "Гордость и предубеждение",
-            "description": "Роман Джейн Остин",
+            "title": "Гордость и предубеждение",
+            "desk": "Роман Джейн Остин",
             "image": "",
             "category": 5,
             "price": "21.00",
@@ -433,8 +433,8 @@
         "model": "catalog.product",
         "pk": 31,
         "fields": {
-            "name": "Маленький принц",
-            "description": "Роман Антуана де Сент-Экзюпери",
+            "title": "Маленький принц",
+            "desk": "Роман Антуана де Сент-Экзюпери",
             "image": "",
             "category": 5,
             "price": "14.99",
@@ -446,8 +446,8 @@
         "model": "catalog.product",
         "pk": 32,
         "fields": {
-            "name": "Дюна",
-            "description": "Научно-фантастический роман Фрэнка Герберта",
+            "title": "Дюна",
+            "desk": "Научно-фантастический роман Фрэнка Герберта",
             "image": "",
             "category": 5,
             "price": "30.00",
